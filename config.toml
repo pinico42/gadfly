@@ -1,3 +1,22 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'GadFly'
+
+[params]
+
+  [[params.navlinks]]
+  name = "Home"
+  url = "/"
+  home = true
+
+  [[params.navlinks]]
+  name = "About"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "Portfolio"
+  url = "portfolio/"
+
+  [[params.navlinks]]
+  name = "Contact"
+  url = "contact/"
